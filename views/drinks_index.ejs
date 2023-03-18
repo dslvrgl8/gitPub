@@ -9,6 +9,7 @@
     <h1>Welcome to gitPub</h1>
 <body>
   <% for(let i = 0; i < drinks.length; i++) { %>
+    <a href="/drinks/<%= i %>">
           <ul>
               <li>Name: <%= drinks[i].name %></li>
 
