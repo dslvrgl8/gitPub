@@ -8,6 +8,12 @@
 </head>
     <h1>Welcome to gitPub</h1>
 <body>
+  <% for(let i = 0; i < drinks.length; i++) { %>
+          <ul>
+              <li>Name: <%= drinks[i].name %></li>
+
+          </ul>
+     <% } %>
     <style type="text/css">
         body {
           color: blanchedalmond;
